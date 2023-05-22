@@ -2,3 +2,67 @@ body {
 	font-family: 'Inconsolata', monospace;
 }
 
+.logoTitle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+	height: 5.859375%;
+}
+
+.logoTitle h1{
+	font-size: 50px;
+	margin: 0;
+}
+
+.circle{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border: 1px solid #000;
+	margin-right: 8px;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 3.41796875%;
+}
+
+
+
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 3.41796875%;
+}
+
+.links a{
+	background: #D9D9D9;
+	border-radius: 38px;
+	font-size: 30px;
+	width: 88px;
+	text-decoration: none;
+	color: #000;
+	margin: 0;
+	margin-right: 51px;
+}
+
+.links svg{
+	margin-right: 3px;
+}
+
+.links select{
+	background: #D9D9D9;
+	border-radius: 6px;
+	width: 154px;
+	text-decoration: none;
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	border: none;
+}

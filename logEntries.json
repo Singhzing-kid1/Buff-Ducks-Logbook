@@ -1,3 +1,24 @@
 [
-    {"id": 1, "author":"John Doe", "date":"22/05/2023", "description":"ooga booga", "thumbnail":"wubdub.png"}
+  {
+    "id": 1,
+    "author": "John Doe",
+    "date": "2022-10-15",
+    "thumbnail": "image1.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 2,
+    "author": "Jane Smith",
+    "date": "2022-11-20",
+    "thumbnail": "image2.jpg",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": 3,
+    "author": "Mike Johnson",
+    "date": "2022-12-05",
+    "thumbnail": "image3.jpg",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  }
 ]
+

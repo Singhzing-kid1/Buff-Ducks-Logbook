@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "monthDate": "22/22",
     "author": "Veer Singh",
     "date": "2022-10-15",
     "thumbnail": "image1.jpg",
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "monthDate": "22/23",
     "author": "Jane Smith",
     "date": "2022-11-20",
     "thumbnail": "image2.jpg",
@@ -15,6 +17,7 @@
   },
   {
     "id": 3,
+    "monthDate": "22/24",
     "author": "Mike Johnson",
     "date": "2022-12-05",
     "thumbnail": "image3.jpg",

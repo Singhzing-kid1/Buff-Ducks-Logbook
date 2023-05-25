@@ -2,7 +2,7 @@ function createLogEntryCardFormJson(cardData){
     console.log(cardData);
 
     var template = `
-        <div class="logEntryCard">
+        <div class="logEntryCard" id="${cardData.monthDate}">
             <div>
                 <img class="thumbnail" src="${cardData.thumbnail || 'https://placehold.co/127x127/000/FFF.png'}" alt="thumbnail">
                 <button id="${cardData.id}">Open Log</button>

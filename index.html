@@ -15,9 +15,15 @@
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/eff6fa723c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/eff6fa723c.js" data-auto-replace-svg="nest" crossorigin="anonymous"></script>
 </head>
 <body>
+	<div class="modal" id="modal">
+		<div class="modalContent" id="modalConent">
+			<i class="fa-solid fa-person-through-window fa-xl" id="close"></i>
+		</div>
+	</div>
+	
     <div class="logoTitle">
 		<img src="logo.png" alt="Buff Ducks Logo" class="circle"/>
 		<h1>Buff Ducks Logbook</h1>
@@ -33,17 +39,6 @@
 	</div>
 	<div class="parentContainer">
 		<div class="gridContainer">
-			<div class="logEntryCard">
-				<div>
-					<img class="thumbnail" src="https://placehold.co/127x127/000/FFF/png" alt="127x127 thumbnail"/>
-					<button>Open Log</button>
-				</div>
-				<div>
-					<h1>Author Name</h1>
-					<h2>date(dd/mm/yyyy)</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>
 		</div>
 	</div>
 	<script type="text/javascript" src="index.js"></script>

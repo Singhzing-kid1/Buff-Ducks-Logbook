@@ -66,7 +66,6 @@ body {
 .gridContainer {
   display: grid;
   grid-template-columns: 398px 398px 398px;
-  grid-template-rows: 208px 208px 208px;
   column-gap: 22px;
   row-gap: 34px;
   margin: 0 auto;
@@ -92,7 +91,6 @@ body {
 	font-size: 30px;
 	margin: 0;
 	margin-top: 26px;
-	margin-right: 76px;
 }
 
 .logEntryCard h2{
@@ -130,4 +128,67 @@ body {
 	background: #fff;
 	border-radius: 20px;
 	border: 2px solid #000;
+}
+
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(217, 217, 217, 0.6);
+}
+
+.modalContent{
+	margin: auto;
+	display: flex;
+	width: 80%;
+	justify-content: center;
+}
+
+.modalContent i{
+	margin: 0;
+	margin-top: 14px;
+	margin-left: 14px;
+}
+
+.logEntry{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 1238px;
+	margin: 0;
+	margin-top: 127px;
+	margin-left: 101px;
+	margin-right: 101px;
+	background-color: #D9D9D9;
+	border: 2px solid #000;
+	border-radius: 28px;
+}
+
+.modalHeader{
+	margin: 0;
+	margin-top: 32px;
+}
+
+.modalBody{
+	margin: 0;
+	margin-top: 28px;
+	margin-bottom: 28px;
+	width: 1072px;
+}
+
+.modalHeader h1{
+	font-size: 60px;
+	margin: 0;
+}
+
+.modalBody p{
+	font-size: 25px;
+	margin: 0;
 }

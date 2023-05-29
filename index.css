@@ -164,7 +164,7 @@ body {
 	width: 1238px;
 	margin: 0;
 	margin-top: 127px;
-	margin-left: 101px;
+	margin-left: 57px;
 	margin-right: 101px;
 	background-color: #D9D9D9;
 	border: 2px solid #000;
@@ -191,4 +191,8 @@ body {
 .modalBody p{
 	font-size: 25px;
 	margin: 0;
+}
+
+#close:hover{
+	cursor: pointer;
 }

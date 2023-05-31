@@ -87,6 +87,8 @@ body {
 	margin-left: 17px;
 	width: 127px;
 	height: 172px;
+	max-width: 127px;
+	max-height: 127px;
 }
 
 .logEntryCard h1{

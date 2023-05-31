@@ -200,3 +200,7 @@ body {
 #close:hover{
 	cursor: pointer;
 }
+
+.imageInLog{
+	max-width: 1072px;
+}

@@ -6,7 +6,7 @@
     "date": "28/05/2023",
     "thumbnail": "shoppingList.jpg",
     "description": "We went to the library and discussed what we need to do for parts pickups",
-    "content": "we discussed some things for our planning to develop our robot. we assemble a kind of shopping list: <img src='shoppingList.jpg'/>" 
+    "content": "we discussed some things for our planning to develop our robot. we assemble a kind of shopping list: <img class='imageInLog' src='shoppingList.jpg'/>" 
   }
     ]
 

@@ -85,6 +85,8 @@ body {
 .thumbnail{
 	margin-top: 22px;
 	margin-left: 17px;
+	width: 127px;
+	height: 172px;
 }
 
 .logEntryCard h1{

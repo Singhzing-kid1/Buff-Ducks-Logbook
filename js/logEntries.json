@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "monthDate": "0523",
+    "author": "Everyone",
+    "date": "28/05/2023",
+    "thumbnail": "./photos/shoppingList.jpg",
+    "description": "We went to the library and discussed what we need to do for parts pickups",
+    "content": "we discussed some things for our planning to develop our robot. we assemble a kind of shopping list: <img class='imageInLog' src='./photos/shoppingList.jpg'/>" 
+  },
+  {
+    "id": 2,
+    "monthDate": "0823",
+    "author": "Aaron",
+    "date": "01/08/2023",
+    "description": "Aaron got some insight on how we could design the drivetrain",
+    "content": "Content will be updated as I(Veer) get more info from Aaron about drivetrain plans.<br/></br></br>Currently we have two different but similar drivetrain designs. Both involve a plan of six wheels where the four outside wheels are drivers and the two in the middle are flexwheel idlers. This is to provide a level of cushioning when our robot needs to roll over the pipe barrier in the middle of the field. Our plans revolve on wether or not to have the four driver wheels be powered by four individual motors, or by two motos that are hooked up to the 4 wheels by a sprocket or gear system."
+  }
+    ]
+

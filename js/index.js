@@ -2,7 +2,7 @@ function createLogEntryCardFormJson(cardData){
     console.log(cardData);
 
     var template = `
-        <div class="logEntryCard" id="${cardData.monthDate}">
+        <div class="logEntryCard ${cardData.monthDate}">
             <div>
                 <img class="thumbnail" src="${cardData.thumbnail || 'https://placehold.co/127x127/000/FFF.png'}" alt="thumbnail">
                 <button id="${cardData.id}">Open Log</button>
@@ -39,7 +39,7 @@ function fillLogWithContent(logData){
 var cardList = [];
 
 $.ajax({
-    url: 'logEntries.json',
+    url: './js/logEntries.json',
     dataType: 'json',
     success: function(data) {
         var jsonData = data;
@@ -80,12 +80,22 @@ $.ajax({
             $('div.modal').css('display', 'none');
             $('div.logEntry').remove();
         });
+        
+        $('.filter').on('change', function(){
+            var filter = $(this).val();
+    
+            if(filter == 'all'){
+                $('.logEntryCard').hide();
+                $('.logEntryCard').show();
+            } else {
+                $('.logEntryCard').hide();
+                $(`.${filter}`).show();
+            }
+        });
+
 
     }
 
 });
-
-
-// console.log(jsonData);
 
 

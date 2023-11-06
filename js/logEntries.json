@@ -24,6 +24,14 @@
     "thumbnail": "./photos/image1.png",
     "description": "Me and Aaron as well as other members discussed specifics of the drivetrain",
     "content": "Me and Aaron presented to the team some ideas about how we could design the drive train as mentioned in August 1st's log entry. Eventually we decided on a concept that uses crossing tails to allow our robot to move over the side and middle bars easily. We also encountered a problem we might have. As you can see in the following image flex wheels come in sizes 2, 3, and 4 inches in diameter whereas omni-directional wheels come in sizes 3.25 and 4 inches.</br></br><img class='imageInLog' src='./photos/image1.png'/></br></br>The problem we have with the wheel sizes is that if we have a wheel that is smaller than the other wheels, say a 3.25 inch omni wheel and a 3 inch flex wheel, we would need to either move the omni wheel up a qaurter inch or the flex wheel down a quarter inch. Perhaps we could make it so that the center wheels are using the red(100rpm) gearboxes to provide more torque when crossing the middle bar. We also decided that we would be using blue(600 rpm) gearboxes to maximize speed as our robot is going to be designed as an offensive robot. Other things Aaron wanted me to mention in this log is that this robot will have a low center of mass to prevent the robot from flipping when it makes abrupt stops."
+  },
+  {
+    "id": 4,
+    "monthDate": "1023",
+    "author": "Whole Team",
+    "date": "20/10/2023",
+    "description": "Started building the drive train. We have changed the configuration of the motors.",
+    "content": ""
   }
     ]
 

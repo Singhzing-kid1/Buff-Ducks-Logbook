@@ -72,6 +72,7 @@ $.ajax({
             var id = $(this).attr('id');
 
             fillLogWithContent(cardList[id-1]).appendTo('div.modalContent');
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub, "div.modalContent"]);
             $('div.modal').css('display', 'block');
 
         });

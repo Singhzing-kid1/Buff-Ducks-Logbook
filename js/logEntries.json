@@ -41,6 +41,14 @@
     "date": "17/12/2023",
     "description": "STEM IA Comp After Action Report",
     "content": "<iframe src='https://docs.google.com/document/d/1u9WnW9grR_oLugZZTY6jWdpKEROsDzRF7zuzxQ_HESM/edit#heading=h.uyu0xumvi8vj'></iframe>"
+  },
+  {
+    "id": 6,
+    "monthDate": "0124",
+    "author": "Whole Team",
+    "date": "22/01/2024",
+    "description": "redesign of most systems after mecha mayhem",
+    "content": "We recreated a similar intake like the one used during the STEMIA competition. We did this because we found it difficult to contribute to our teams success in terms of scoring triballs. We also have a direct drive instead of gearing the wheels because we found that the robot during mecha mayhem was slugissh and slow to respond to use input due to the robot being heavy and generally slow. We also designed a pnuematic actuated wing to help push triballs into the net. We noticed that most top teams at mecha mayhem had a pair of wings."
   }
 ]
 
